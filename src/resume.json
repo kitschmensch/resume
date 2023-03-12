@@ -1,0 +1,138 @@
+{
+	"basics": {
+		"firstName": "Jake",
+		"lastName": "Mecham",
+		"phone": "208-403-6947",
+		"email": "jake@mecham.xyz",
+		"title": "Developer & API Consultant",
+		"linkedin": "https://www.linkedin.com/in/mechamjake/",
+		"github": "https://github.com/kitschmensch"
+	},
+	"work": [
+		{
+			"company": "Vineskills",
+			"url": "https://vineskills.com",
+			"title": "Optimizer",
+			"dates": "Oct 2022 — Present",
+			"description": [
+				"Developed a CLI tool in Python to modify customer's data in bulk using spreadsheets",
+				"Consult with clients on API integrations and best practices"
+			]
+		},
+		{
+			"company": "Filevine",
+			"url": "https://filevine.com",
+			"title": "Product Owner",
+			"dates": "Jan 2020 — Sep 2022",
+			"description": [
+				"Designed and led development on calendar UI, custom roles, admin tools, and API endpoints",
+				"Run daily standup and manage priorities for a dev team of 7",
+				"Manage feature requests and product backlog"
+			]
+		},
+		{
+			"company": "Filevine",
+			"url": "https://filevine.com",
+			"title": "API Support Engineer",
+			"dates": "May 2019 — Jan 2020",
+			"description": [
+				"Helped engineers build integrations with our platform by troubleshooting their code",
+				"Preformed code reviews and QA testing on new features",
+				"Sole author and maintainer of Filevine's REST API documentation"
+			]
+		},
+		{
+			"company": "Filevine",
+			"url": "https://filevine.com",
+			"title": "Head of Support",
+			"dates": "Feb 2019 — Sep 2019",
+			"description": [
+				"Served as the resident product expert, answering internal Sales and Implementations questions",
+				"Investigated and verified platform issues and bugs to report to the development team"
+			]
+		},
+		{
+			"company": "Filevine",
+			"url": "https://filevine.com",
+			"title": "Implementation Consultant",
+			"dates": "Apr 2018 — May 2019",
+			"description": [
+				"Implemented more than $1 million in ARR",
+				"Migrated customer data using MS Power Query, Python API scripts, and in-house applications"
+			]
+		},
+		{
+			"company": "Vogelzang Law",
+			"url": "https://vogelzanglaw.com",
+			"title": "Information Technology Specialist",
+			"dates": "Jul 2017 — Apr 2018",
+			"description": [
+				"Consolidated and migrated 15 years worth of settlement data stored in unformatted Excel files into a cohesive database"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "University of Chicago",
+			"area": "Humanities",
+			"degree": "Master of Arts",
+			"dates": "2015—2016"
+		},
+		{
+			"institution": "BYU—Idaho",
+			"area": "Music Composition",
+			"degree": "Bachelor of Arts",
+			"dates": "2009—2013"
+		}
+	],
+	"proficiencies": {
+		"tech": [
+			"Python",
+			"JavaScript",
+			"SQL",
+			"HTML",
+			"CSS",
+			"Svelte",
+			"React",
+			"LAMP",
+			"Node.js",
+			"Django"
+		],
+		"tools": [
+			"VS Code",
+			"Postman",
+			"Figma",
+			"Balsamiq",
+			"Adobe XD",
+			"DataGrip",
+			"GitLab",
+			"Jira",
+			"Confluence",
+			"New Relic",
+			"AWS"
+		]
+	},
+	"projects": [
+		{
+			"name": "composers.fyi",
+			"url": "https://www.composers.fyi",
+			"description": "I used React and php to build a touch-enabled timeline of classical music composers. Smooth audio transitions should help give the user gain an intuitive understanding of the evolution of orchestral musical styles.",
+			"tech": "LAMP & React"
+		},
+		{
+			"name": "arcadian",
+			"url": "https://github.com/kitschmensch/arcadian",
+			"description": "I built this tool to help my partner and I manage our finances. The app uses Django REST framework to expose a Postgresdb to the Svelte frontend. It's currently installed on a Raspberry Pi and hosted on our home network. ",
+			"tech": "Django & Svelte"
+		}
+	],
+	"interests": [
+		"Chiptunes",
+		"Photography",
+		"Indian & Chinese cuisine",
+		"Philosophical Doaism",
+		"Hiking & travel",
+		"Vintage keyboard collecting",
+		"Kitschy art"
+	]
+}

@@ -1,0 +1,152 @@
+h1,
+h2,
+h3,
+h3,
+h4,
+div,
+span,
+p {
+    font-family: "IBM Plex Sans", Sans;
+}
+
+body {
+    font-size: .85rem;
+    background-color: #6C9ED6;
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;
+    background-image: linear-gradient(45deg, #8FDD8A 25%, transparent 25%, transparent 75%, #8FDD8A 75%, #8FDD8A),
+        linear-gradient(45deg, #8FDD8A 25%, transparent 25%, transparent 75%, #8FDD8A 75%, #8FDD8A);
+    background-attachment: fixed;
+}
+
+.printUrl {
+    font-weight: normal;
+    font-style: italic;
+    display: none;
+}
+
+.work {
+    max-width: 575px;
+}
+
+.narrow {
+    max-width: 375px;
+}
+
+
+
+ul li {
+    font-family: 'IBM Plex Mono', Times;
+}
+
+li.desc {
+    margin-top: 2px;
+    position: relative;
+    left: -20px;
+}
+
+li.bigbullet {
+    padding-bottom: 1rem;
+    border-left: 2px solid black;
+    position: relative;
+    padding-top: 0;
+    padding-left: 30px;
+    margin-left: 0px;
+    right: 30px;
+    list-style: none;
+}
+
+.bigbullet:last-child {
+    border: 0px;
+    padding-bottom: 0;
+}
+
+.bigbullet:before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 50%;
+    left: -0.66rem;
+    vertical-align: baseline;
+    box-shadow: rgba(113, 160, 90, 0.4) 4px 4px;
+}
+
+.container {
+    border: 8px double black;
+    max-width: 1000px;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: .5rem auto;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+@media print {
+    body {
+        background: none;
+        font-size: .75rem;
+        margin: 0px;
+        padding: 3rem;
+
+    }
+
+    li.desc {
+        position: relative;
+        left: -30px;
+    }
+
+    .container {
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        width: 100%;
+        box-shadow: none;
+        border: none;
+
+    }
+
+    .work {
+        max-width: 450px;
+    }
+
+    .narrow {
+        max-width: 250px;
+    }
+
+    h2 {
+        margin-bottom: 0px;
+    }
+
+    .blurb {
+        display: none;
+    }
+
+    .bigbullet:before {
+        width: .5rem;
+        height: .5rem;
+        left: -0.5rem;
+        box-shadow: rgba(113, 160, 90, 0.4) 2px 2px;
+    }
+
+    .contact {
+        font-size: 0.8rem !important;
+    }
+
+    .printButton {
+        display: none;
+    }
+}
+
+
+
+@page {
+    size: auto;
+    margin: 0;
+}
